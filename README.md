@@ -1,15 +1,13 @@
 # ZenithWorks AI Employees
 
-Live Link : https://zenithworks-wfd9.onrender.com/
-
 Multi-agent AI automation platform that generates professional emails for 4 departments using **CrewAI + Groq (Llama 3.1)**.
 
 ## Why Groq?
 | | Groq (Llama 3.1) | Gemini 1.5 Flash | GPT-4o-mini |
 |---|---|---|---|
-| Free tier | Yes | Yes (limited) | No |
+| Free tier | ✅ Yes | ✅ Yes (limited) | ❌ No |
 | Daily limit | 14,400 requests | Quota exhausts fast | Paid only |
-| Speed | Fastest (LPU) | Fast | Fast |
+| Speed | ⚡ Fastest (LPU) | Fast | Fast |
 | Setup | API key only | Google account + project | OpenAI account |
 
 ## Departments
@@ -147,8 +145,3 @@ curl -X POST http://localhost:5000/api/process/csv \
 Sheet tabs auto-logged:
 - `HR_Outputs`, `CS_Outputs`, `Marketing_Outputs`, `Accounting_Outputs`
 - `HR_Batch`, `CS_Batch`, `Marketing_Batch`, `Accounting_Batch`
-
-## Output Screenshot
-
-Here’s a preview of the ZenithWorks AI Employees interface:
-<img width="1919" height="866" alt="image" src="https://github.com/user-attachments/assets/af0993d9-720f-46f9-aa7d-175213fabbcb" />

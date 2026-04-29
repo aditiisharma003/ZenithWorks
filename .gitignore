@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.sqlite3
